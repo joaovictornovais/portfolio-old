@@ -7,7 +7,7 @@ const Hero = () => {
   const backend = ['java', 'python', 'postgresql', 'firebase']
 
   return (
-    <section id="hero" className='flex flex-col gap-6 justify-center h-full items-center pt-16 px-6 bg-zinc-100'>
+    <section id="hero" className='flex flex-col gap-6 justify-center h-full items-center pt-16 pb-12 px-6 bg-zinc-100'>
       <div className='p-8'>
         <img className='w-[300px] rounded-xl'
           src="https://i.pinimg.com/736x/02/11/aa/0211aa42dd92331ff9e3f9a06f13bab5.jpg" 
