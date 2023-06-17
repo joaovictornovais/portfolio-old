@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
       <div className='flex flex-col gap-4 text-base'>
         <h1 className='text-gray-800 font-bold text-3xl text-center'>Full-Stack Java/React Developer 🌊</h1>
-        <p className='text-center text-zinc-700 text-lg'>Hi I'm João Victor. A passionate Full-stack Java/React Developer based in São Paulo, Brazil. 📍</p>
+        <p className='text-center text-zinc-700 text-lg max-w-[500px]'>Hi I'm João Victor. A passionate Full-stack Java/React Developer based in São Paulo, Brazil. 📍</p>
       </div>
       <div className='flex gap-4 text-gray-800'>
         <a className='cursor-pointer hover:text-blue-600 hover:scale-105 transition-colors'
