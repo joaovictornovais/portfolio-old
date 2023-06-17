@@ -27,7 +27,7 @@ const Header = () => {
         <li className='cursor-pointer hover:text-blue-600 transition-colors' 
           onClick={handleNav}><a href="#projects">Projects</a></li>
         <li className='cursor-pointer hover:text-blue-600 transition-colors' 
-          onClick={handleNav}><a>Contact</a></li>
+          onClick={handleNav}><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
