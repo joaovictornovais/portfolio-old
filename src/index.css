@@ -5,6 +5,13 @@
 .center {
     @apply flex gap-4 items-center justify-center;
 }
+.paragraph {
+    @apply text-center text-zinc-700 text-lg;
+}
+.column {
+    @apply flex flex-col gap-4;
+}
+
 /* HEADER */
 header {
     @apply bg-white fixed w-full;
@@ -40,15 +47,20 @@ header {
     @apply flex flex-col gap-6 justify-center h-full items-center pt-16 bg-zinc-100 px-6;
     @apply md:flex-row-reverse;
 }
-
 .center-container {
     @apply flex flex-col gap-4 text-base items-center justify-center;
 }
-
 .hero-title {
     @apply text-gray-800 font-bold text-3xl text-center md:text-6xl max-w-[600px];
 }
 
-.paragraph {
-    @apply text-center text-zinc-700 text-lg;
+/* SKILLS */
+.skills-container {
+    @apply flex flex-col gap-4 items-center p-4 bg-zinc-100 py-16;
+}
+.skills-title {
+    @apply font-bold text-xl text-gray-800 border-b-2 border-gray-800 py-1 px-2;
+}
+.skills-circle {
+    @apply bg-white p-3 rounded-full shadow-xl flex justify-center items-center hover:scale-105 transition-all duration-200 cursor-pointer;
 }
