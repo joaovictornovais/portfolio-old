@@ -4,9 +4,9 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className='bg-zinc-800 text-white font-bold text-base p-2 text-center py-16 flex flex-col gap-4'>
+    <footer>
         <p>Copyright © 2023. All rights are reserved</p>
-        <div className='flex gap-4 items-center justify-center'>
+        <div className='center'>
             <a href="https://www.linkedin.com/in/joaovictornovais" target="__blank">
                 <FaLinkedin size={25} />
             </a>

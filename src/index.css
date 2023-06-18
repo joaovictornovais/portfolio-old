@@ -101,3 +101,8 @@ header {
 .contact-legend {
     @apply text-xl font-bold text-gray-800;
 }
+
+/* FOOTER  */
+footer { 
+    @apply bg-zinc-800 text-white font-bold text-base p-2 text-center py-16 flex flex-col gap-4;
+}
