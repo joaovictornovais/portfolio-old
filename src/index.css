@@ -79,3 +79,25 @@ header {
 .about-image {
     @apply rounded-xl w-[400px] mx-auto;
 }
+
+/* PROJECTS */
+.projects-container {
+    @apply h-full bg-zinc-100 flex justify-center items-center p-8 py-24;
+}
+
+/* CONTACT */
+.contact-container {
+    @apply bg-white flex justify-center items-center h-full p-8 py-24;
+}
+.contact-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-12 pt-6;
+}
+.contact-circle {
+    @apply flex flex-col gap-2 justify-center items-center;
+}
+.contact-item {
+    @apply bg-white p-4 rounded-full shadow-xl text-blue-600 hover:cursor-pointer hover:scale-105 duration-200;
+}
+.contact-legend {
+    @apply text-xl font-bold text-gray-800;
+}
