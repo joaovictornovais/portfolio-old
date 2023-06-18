@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className='flex flex-col justify-center h-full sm:h-full md:pt-16 md:h-screen'>
+      <div className='full-container'>
         <Hero />
         <Skills />
       </div>

@@ -11,6 +11,9 @@
 .column {
     @apply flex flex-col gap-4;
 }
+.full-container {
+    @apply flex flex-col justify-center h-full sm:h-full md:pt-16 md:h-screen;
+}
 
 .section-topic {
     @apply text-blue-600 font-bold uppercase text-center pt-4 text-xl;
