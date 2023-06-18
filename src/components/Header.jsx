@@ -14,7 +14,11 @@ const Header = () => {
   <header>
     <nav className='header-container'>
       <div className='header-logo group'>
-        <a className='color-hover text-gray-800 hover:text-blue-600'>novais.<span className='color-hover text-blue-600 group-hover:text-gray-800'>dev</span></a>
+        <a className='blue-hover text-gray-800'>novais.
+          <span className='color-hover text-blue-600 group-hover:text-gray-800'>
+            dev
+          </span>
+        </a>
       </div>
       <div className='flex sm:hidden' onClick={handleNav}>
         {nav ? <MdClose size={23} /> : <HiMenuAlt3 size={23} />}
