@@ -11,7 +11,7 @@ const Skills = () => {
                 <ul className='flex gap-4'>
                     {
                         frontend.map((stack) => (
-                            <li className='bg-white p-2 rounded-full shadow-xl flex justify-center items-center hover:scale-105 transition-all duration-200'>
+                            <li className='bg-white p-3 rounded-full shadow-xl flex justify-center items-center hover:scale-105 transition-all duration-200 cursor-pointer'>
                                 <img className='w-[50px]'
                                     src={stack != 'tailwind' ? `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${stack}/${stack}-original.svg` : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"} />
                             </li>
@@ -24,7 +24,7 @@ const Skills = () => {
                 <ul className='flex gap-4'>
                     {
                         backend.map((stack) => (
-                            <li className='bg-white p-2 rounded-full shadow-xl flex justify-center items-center hover:scale-105 transition-all duration-200'>
+                            <li className='bg-white p-2 rounded-full shadow-xl flex justify-center items-center hover:scale-105 transition-all duration-200 cursor-pointer'>
                                 <img className='w-[50px]'
                                     src={stack != 'firebase' ? `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${stack}/${stack}-original.svg` : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"} />
                             </li>

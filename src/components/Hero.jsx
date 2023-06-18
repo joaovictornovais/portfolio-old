@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <section id="hero" className='flex flex-col md:flex-row-reverse gap-6 justify-center h-full items-center pt-16 bg-zinc-100'>
+    <section id="hero" className='flex flex-col md:flex-row-reverse gap-6 justify-center h-full items-center pt-16 bg-zinc-100 px-6'>
       <div className='p-8'>
         <img className='w-[300px] rounded-xl'
           src="https://i.pinimg.com/736x/02/11/aa/0211aa42dd92331ff9e3f9a06f13bab5.jpg"
