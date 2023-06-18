@@ -7,7 +7,6 @@ const Skills = () => {
         <div className='flex flex-col gap-4 items-center p-4 bg-zinc-100 py-16'>
             <h2 className='font-bold text-xl text-gray-800 border-b-2 border-gray-800 py-1 px-2'>Skills</h2>
             <div className='flex flex-col gap-4'>
-                <span className='font-semibold text-base text-blue-600 sm:hidden'>Front-end</span>
                 <ul className='flex gap-4'>
                     {
                         frontend.map((stack) => (
@@ -20,7 +19,6 @@ const Skills = () => {
                 </ul>
             </div>
             <div className='flex flex-col gap-4'>
-                <span className='font-semibold text-base text-gray-800 text-end sm:hidden'>Back-end</span>
                 <ul className='flex gap-4'>
                     {
                         backend.map((stack) => (
