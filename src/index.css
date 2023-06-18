@@ -12,6 +12,13 @@
     @apply flex flex-col gap-4;
 }
 
+.section-topic {
+    @apply text-blue-600 font-bold uppercase text-center pt-4 text-xl;
+}
+.section-title {
+    @apply text-3xl sm:text-4xl text-gray-800 font-bold text-center;
+}
+
 /* HEADER */
 header {
     @apply bg-white fixed w-full;
@@ -63,4 +70,12 @@ header {
 }
 .skills-circle {
     @apply bg-white p-3 rounded-full shadow-xl flex justify-center items-center hover:scale-105 transition-all duration-200 cursor-pointer;
+}
+
+/* ABOUT */
+.about-container {
+    @apply px-8 py-24 flex flex-col gap-6 max-w-[1000px] mx-auto;
+}
+.about-image {
+    @apply rounded-xl w-[400px] mx-auto;
 }
